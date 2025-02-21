@@ -3,3 +3,57 @@ body {
   height: 100%;
   margin: 0;
 }
+h1{
+text-align:center;
+color: black;
+}
+
+
+nav{
+  text-align:center;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color : bisque;
+  justify-content: space-between;
+
+  
+  
+}
+nav :hover{
+
+  color:white;
+}
+#featured-property{
+  text-align:center;
+  font-display: 900px;
+  vertical-align: -webkit-baseline-middle ;
+}
+section{
+            
+  justify-content: center;               
+  font-display: 800px;         
+  text-align:center;
+  text-wrap-style: wrap; 
+  width: 50%;
+  margin:0 auto;
+
+
+  
+  h1 :hover{
+    color: aquamarine;
+    border: 100px;
+  }
+}
+#details{
+   text-align:center;
+    display: flex;               
+    justify-content: space-between; 
+    
+    width: 100%;                 
+    padding:0 10px;
+
+  flex: 1;                            
+  margin: 0 10px; 
+  
+  background-color:red;
+}
